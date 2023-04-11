@@ -1,0 +1,102 @@
+v
+Write a function that determines if a given string is balanced, i.e. it consists of correctly ordered and nested parentheses "(" and ")".
+
+
+
+public class BalancedParantheses{
+
+
+static boolean validateExpression(String expression){
+
+
+	//i can suse stack
+	Deque<Character> deque=new ArrayDequeue<>();
+	
+	for(int i=0;i<expression.length();i++){
+
+	char character=expression.charAt(i);
+
+	//to push intothe 
+	if(character=='('){
+		dequeu.push(character);
+		continue;
+	}
+
+	
+
+	if(dequeue.isEmpty()) return false;
+	char check;
+	switch(character){
+	
+	case ')':
+		check=dequeu.pop();
+		if(check!='(') return false;
+	break;//break case
+
+	
+
+	case '}'
+
+	case ']'
+	}//switch ends here
+	retrun (deque.isEmpty());
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+}
+
+
+
+
+SQL - Write a SQL statement to find duplicate records in a field of a given table?
+
+select userName,email,count(*) 
+from users 
+group by username,email
+ having count(*) > 1
+
+
+open otter
+
+
+
+
+
+1) Mysql connector java
+
+
+2) jdbc7
+
+
+
+in my proj i used like this and so i said like that
+even still i am sure this is what i have added
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
